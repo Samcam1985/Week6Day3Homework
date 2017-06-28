@@ -1,17 +1,22 @@
-// import static org.junit.Assert.*;
-// import org.junit.*;
-// import strategy_pattern.*;
+import static org.junit.Assert.*;
+import org.junit.*;
+import Strategy_pattern.*;
 
-// public class DodgemCarTest {
+public class DodgemCarTest {
 
-//   DodgemCar dodgemcar;
-//   Driver driver;
-
-//   @Before
-//   public void before(){
-//     dodgemcar = new Dodgemcar("Dodge", 20, 2);
-//     driver = new Driver("Sam", dodgemcar);
-//   }
+  DodgemCar dodgemcar;
 
 
-// }
+  @Before
+  public void before(){
+    dodgemcar = new DodgemCar(20, 2);
+    
+  }
+
+@Test
+public void getSpeed(){
+  assertEquals(20, dodgemcar.getSpeed());
+}
+
+
+}
