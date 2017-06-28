@@ -22,5 +22,12 @@ public void getSpeed(){
 public void getNumberOfSeats(){
   assertEquals(2, dodgemcar.numberOfSeats());
 }
-
+@Test
+public void getdriveDistance(){
+  assertEquals(40, dodgemcar.driveDistance(800));
+}
+@Test
+public void getdriveDistance(){
+  assertEquals(40, dodgemcar.driveDistance(800));
+}
 }
