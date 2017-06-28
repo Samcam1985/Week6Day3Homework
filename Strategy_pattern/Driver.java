@@ -16,6 +16,10 @@ public class Driver {
     return vehicle.driveDistance(distance);
   }
 
+  public Drivable getVehicle(){
+    return this.vehicle;
+  }
+
   public void setVehicle(Drivable vehicle){
     this.vehicle = vehicle;
   }

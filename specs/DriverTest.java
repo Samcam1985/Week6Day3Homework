@@ -19,4 +19,11 @@ public class DriverTest {
     assertEquals(60, driver.driveDistance(2400));
   }
 
+  @Test
+  public void setVehicle(){
+    QuadBike quadbike = new QuadBike(90, 75);
+    driver.setVehicle(quadbike);
+    assertEquals(quadbike,driver.getVehicle());
+  }
+
 }
