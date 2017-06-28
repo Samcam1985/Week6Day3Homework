@@ -16,4 +16,10 @@ public class QuadBikeTest {
     assertEquals(60, quadbike.getSpeed());
   }
 
+  @Test
+  public void getEngineCapacity(){
+    assertEquals(75, quadbike.getEngineCapacity());
+  }
+
+
 }
