@@ -23,6 +23,8 @@ public class QuadBikeTest {
 
   @Test
   public void getdriveDistance(){
+    //expected = 20s 
+    //1200m/60mph 
     assertEquals(20, quadbike.driveDistance(1200));
   
   }

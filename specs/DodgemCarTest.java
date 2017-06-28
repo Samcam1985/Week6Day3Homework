@@ -24,6 +24,8 @@ public void getNumberOfSeats(){
 }
 @Test
 public void getdriveDistance(){
+  // expected 40sec
+  //800m/20mph
   assertEquals(40, dodgemcar.driveDistance(800));
 }
 
